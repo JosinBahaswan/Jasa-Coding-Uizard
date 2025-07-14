@@ -1,0 +1,123 @@
+body,
+html,
+.pricing-container {
+  background: #111;
+  color: #fff;
+  min-height: 100vh;
+  margin: 0;
+  font-family: "Roboto", Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+.pricing-main {
+  flex: 1 0 auto;
+  padding: 56px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+}
+.pricing-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 48px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.pricing-cards {
+  display: flex;
+  gap: 56px;
+  justify-content: center;
+  width: 100vw;
+  max-width: none;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+.pricing-card {
+  background: #232323;
+  border-radius: 20px;
+  padding: 36px 24px 28px 24px;
+  min-width: 220px;
+  max-width: 260px;
+  color: #fff;
+  box-shadow: 0 2px 20px #0003;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+.pricing-card:hover {
+  box-shadow: 0 6px 32px #0005;
+  transform: translateY(-4px) scale(1.03);
+}
+.pricing-card h3 {
+  color: #22d47b;
+  margin-bottom: 18px;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.pricing-card ul {
+  color: #bdbdbd;
+  font-size: 1.18rem;
+  margin-bottom: 24px;
+  padding-left: 0;
+  list-style: none;
+}
+.pricing-card ul li {
+  margin-bottom: 8px;
+  position: relative;
+  padding-left: 28px;
+}
+.pricing-card ul li:before {
+  content: "\2713";
+  color: #22d47b;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.price {
+  font-size: 2.3rem;
+  color: #22d47b;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+.buy-btn {
+  background: #22d47b;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 16px 44px;
+  font-size: 1.15rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.2s, box-shadow 0.2s;
+  box-shadow: 0 2px 8px #0003;
+}
+.buy-btn:hover {
+  background: #1bb36a;
+  box-shadow: 0 4px 16px #0004;
+}
+
+/* Responsive */
+@media (max-width: 1200px) {
+  .pricing-cards {
+    gap: 32px;
+  }
+}
+@media (max-width: 800px) {
+  .pricing-title {
+    font-size: 1.7rem;
+    margin-bottom: 32px;
+  }
+  .pricing-cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+  .pricing-card {
+    min-width: 220px;
+    max-width: 98vw;
+    padding: 24px 12px 18px 12px;
+  }
+}
