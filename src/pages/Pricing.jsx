@@ -18,8 +18,8 @@ export default function Pricing() {
               <li>✓ Feature 2</li>
               <li>✓ Feature 3</li>
             </ul>
-            <div className="price">$99</div>
-            <button className="buy-btn">Buy Now</button>
+            <div className="price">-</div>
+            <a className="buy-btn" href="https://wa.me/6289524513205" target="_blank" rel="noopener noreferrer">Contact</a>
           </div>
           <div className="pricing-card">
             <h3>Standard Package</h3>
@@ -29,8 +29,8 @@ export default function Pricing() {
               <li>✓ Feature 3</li>
               <li>✓ Feature 4</li>
             </ul>
-            <div className="price">$199</div>
-            <button className="buy-btn">Buy Now</button>
+            <div className="price">-</div>
+            <a className="buy-btn" href="https://wa.me/6289524513205" target="_blank" rel="noopener noreferrer">Contact</a>
           </div>
           <div className="pricing-card">
             <h3>Premium Package</h3>
@@ -41,8 +41,8 @@ export default function Pricing() {
               <li>✓ Feature 4</li>
               <li>✓ Feature 5</li>
             </ul>
-            <div className="price">$299</div>
-            <button className="buy-btn">Buy Now</button>
+            <div className="price">-</div>
+            <a className="buy-btn" href="https://wa.me/6289524513205" target="_blank" rel="noopener noreferrer">Contact</a>
           </div>
         </div>
       </main>

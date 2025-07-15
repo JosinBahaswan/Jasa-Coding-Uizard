@@ -1,4 +1,4 @@
-// Homepage sesuai desain Joki Coding Homepage.png
+// Homepage sesuai desain Jasa Coding Homepage.png
 import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
@@ -9,7 +9,7 @@ export default function Home() {
     <div className="home-container">
       <Navbar />
       <main className="home-main">
-        <h1 className="home-title">Welcome to Joki Coding</h1>
+        <h1 className="home-title">Welcome to Jasa Coding</h1>
         <p className="home-subtitle">
           Empowering your digital presence with cutting-edge technology and
           innovative solutions. Join us to unlock your potential.

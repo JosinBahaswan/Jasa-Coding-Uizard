@@ -7,7 +7,7 @@ export default function Navbar() {
     <nav className="navbar">
       <div className="navbar-logo">
         <span className="logo-icon">{'</>'}</span>
-        <span className="logo-text">Joki Coding</span>
+        <span className="logo-text">Jasa Coding</span>
       </div>
       <ul className="navbar-menu">
         <li><Link to="/">Home</Link></li>

@@ -15,12 +15,12 @@ export default function Footer({ variant = "default" }) {
       <div className="footer-about">
         <b>About Us</b>
         <div>
-          Joki Coding is dedicated to providing top-notch coding services...
+          Jasa Coding is dedicated to providing top-notch coding services...
         </div>
       </div>
     );
   } else {
-    left = <div>© 2023 Joki Coding. All rights reserved.</div>;
+    left = <div>© 2023 Jasa Coding. All rights reserved.</div>;
   }
 
   // Konten kanan
@@ -29,8 +29,9 @@ export default function Footer({ variant = "default" }) {
     right = (
       <div className="footer-contact">
         <b>Contact</b>
-        <div>Email: contact@jokicoding.com</div>
+        <div>Email: contact@Jasacoding.com</div>
         <div>Phone: +1 234 567 890</div>
+        <a className="footer-wa-btn" href="https://wa.me/6289524513205" target="_blank" rel="noopener noreferrer" style={{display:'inline-block',marginTop:'8px',padding:'6px 12px',background:'#25D366',color:'#fff',borderRadius:'4px',textDecoration:'none'}}>Contact via WhatsApp</a>
       </div>
     );
   } else if (variant === "contact") {
@@ -42,6 +43,7 @@ export default function Footer({ variant = "default" }) {
         <a href="#" className="footer-link">
           Terms of Service
         </a>
+        <a className="footer-wa-btn" href="https://wa.me/6289524513205" target="_blank" rel="noopener noreferrer" style={{display:'inline-block',marginTop:'8px',padding:'6px 12px',background:'#25D366',color:'#fff',borderRadius:'4px',textDecoration:'none'}}>Contact via WhatsApp</a>
       </div>
     );
   } else {
@@ -61,6 +63,7 @@ export default function Footer({ variant = "default" }) {
             <IconInstagram />
           </a>
         </div>
+        <a className="footer-wa-btn" href="https://wa.me/6289524513205" target="_blank" rel="noopener noreferrer" style={{display:'inline-block',marginTop:'8px',padding:'6px 12px',background:'#25D366',color:'#fff',borderRadius:'4px',textDecoration:'none'}}>Contact via WhatsApp</a>
       </div>
     );
   }

@@ -13,7 +13,7 @@ export default function Testimonials() {
           <div className="testimonial-card">
             <div className="testimonial-img testimonial-img-1" />
             <blockquote>
-              "Joki Coding's services are exceptional! They helped streamline
+              "Jasa Coding's services are exceptional! They helped streamline
               our processes effectively."
             </blockquote>
             <div className="testimonial-name">Anna Smith</div>

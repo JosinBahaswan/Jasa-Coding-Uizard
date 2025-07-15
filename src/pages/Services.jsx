@@ -1,4 +1,4 @@
-// Services Page sesuai desain Services Page - Joki Coding.png
+// Services Page sesuai desain Services Page - Jasa Coding.png
 import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
