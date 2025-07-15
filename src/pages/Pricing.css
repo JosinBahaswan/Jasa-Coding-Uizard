@@ -32,6 +32,7 @@ html,
   max-width: none;
   margin: 0 auto;
   flex-wrap: wrap;
+  margin-bottom: 64px; /* Tambahkan jarak bawah */
 }
 .pricing-card {
   background: #232323;
@@ -114,6 +115,7 @@ html,
     flex-direction: column;
     align-items: center;
     gap: 24px;
+    margin-bottom: 32px; /* Jarak bawah lebih kecil di mobile */
   }
   .pricing-card {
     min-width: 220px;
