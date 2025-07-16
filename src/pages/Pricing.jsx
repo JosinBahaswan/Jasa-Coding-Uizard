@@ -19,7 +19,7 @@ export default function Pricing() {
               <li>Estimasi selesai: &lt; 24 jam</li>
               <li>Support via chat</li>
             </ul>
-            <div className="price">Rp30.000</div>
+            <div className="price">Rp. -</div>
             <a
               className="buy-btn"
               href="https://wa.me/6289524513205?text=Halo%20saya%20ingin%20order%20Paket%20Basic"
@@ -38,7 +38,7 @@ export default function Pricing() {
               <li>Penjelasan kode (jika diminta)</li>
               <li>Support via chat</li>
             </ul>
-            <div className="price">Rp75.000</div>
+            <div className="price">Rp. -</div>
             <a
               className="buy-btn"
               href="https://wa.me/6289524513205?text=Halo%20saya%20ingin%20order%20Paket%20Standard"
@@ -58,7 +58,7 @@ export default function Pricing() {
               <li>Prioritas pengerjaan</li>
               <li>Support via chat &amp; call</li>
             </ul>
-            <div className="price">Mulai Rp150.000</div>
+            <div className="price">Rp. -</div>
             <a
               className="buy-btn"
               href="https://wa.me/6289524513205?text=Halo%20saya%20ingin%20order%20Paket%20Premium"
