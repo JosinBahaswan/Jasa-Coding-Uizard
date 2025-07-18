@@ -1,3 +1,28 @@
+@media (max-width: 900px) {
+  .home-main {
+    padding-top: 32px;
+  }
+  .home-title {
+    font-size: 2.1rem;
+  }
+  .home-subtitle {
+    font-size: 1rem;
+    padding: 0 8px;
+  }
+}
+
+@media (max-width: 600px) {
+  .home-main {
+    padding-top: 16px;
+  }
+  .home-title {
+    font-size: 1.3rem;
+  }
+  .home-btn {
+    padding: 12px 24px;
+    font-size: 1rem;
+  }
+}
 body,
 html,
 .home-container {

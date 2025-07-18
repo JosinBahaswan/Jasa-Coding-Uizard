@@ -1,3 +1,27 @@
+@media (max-width: 900px) {
+  .testimonials-cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+  .testimonial-card {
+    min-width: 0;
+    max-width: 95vw;
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .testimonials-main {
+    padding: 8px;
+  }
+  .testimonial-card {
+    padding: 16px 8px;
+    min-width: 0;
+    max-width: 100vw;
+    width: 100%;
+  }
+}
 body,
 html,
 .testimonials-container {

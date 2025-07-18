@@ -1,3 +1,32 @@
+@media (max-width: 900px) {
+  .pricing-cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+  .pricing-card {
+    width: 95vw;
+    max-width: 400px;
+  }
+  .pricing-title {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .pricing-main {
+    padding: 12px;
+  }
+  .pricing-title {
+    font-size: 1.1rem;
+    text-align: center;
+  }
+  .pricing-card {
+    padding: 16px 8px;
+    width: 100%;
+    max-width: 98vw;
+  }
+}
 body,
 html,
 .pricing-container {
