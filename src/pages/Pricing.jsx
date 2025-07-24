@@ -12,12 +12,12 @@ export default function Pricing() {
         <h1 className="pricing-title">Pilih Paket Layanan Coding</h1>
         <div className="pricing-cards">
           <div className="pricing-card">
-            <h3>Basic Package</h3>
+            <h3>Paket Basic</h3>
             <ul>
               <li>1 File Coding (HTML/CSS/JS/Python, dll)</li>
               <li>Revisi 1x minor</li>
               <li>Estimasi selesai: &lt; 24 jam</li>
-              <li>Support via chat</li>
+              <li>Dukungan via chat</li>
             </ul>
             <div className="price">Rp. -</div>
             <a
@@ -26,17 +26,17 @@ export default function Pricing() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Order via WhatsApp
+              Pesan via WhatsApp
             </a>
           </div>
           <div className="pricing-card">
-            <h3>Standard Package</h3>
+            <h3>Paket Standard</h3>
             <ul>
-              <li>Multi File Coding / 1 Project kecil</li>
+              <li>Multi File Coding / 1 Proyek kecil</li>
               <li>Revisi hingga 3x</li>
               <li>Estimasi selesai: 1-2 hari</li>
               <li>Penjelasan kode (jika diminta)</li>
-              <li>Support via chat</li>
+              <li>Dukungan via chat</li>
             </ul>
             <div className="price">Rp. -</div>
             <a
@@ -45,18 +45,18 @@ export default function Pricing() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Order via WhatsApp
+              Pesan via WhatsApp
             </a>
           </div>
           <div className="pricing-card">
-            <h3>Premium Package</h3>
+            <h3>Paket Premium</h3>
             <ul>
-              <li>Project besar/kompleks (banyak file/fungsi)</li>
-              <li>Revisi bebas</li>
+              <li>Proyek besar/kompleks (banyak file/fungsi)</li>
+              <li>Revisi tanpa batas</li>
               <li>Estimasi selesai: sesuai kesepakatan</li>
-              <li>Konsultasi &amp; diskusi kebutuhan</li>
+              <li>Konsultasi & diskusi kebutuhan</li>
               <li>Prioritas pengerjaan</li>
-              <li>Support via chat &amp; call</li>
+              <li>Dukungan via chat & call</li>
             </ul>
             <div className="price">Rp. -</div>
             <a
@@ -65,7 +65,7 @@ export default function Pricing() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Order via WhatsApp
+              Pesan via WhatsApp
             </a>
           </div>
         </div>

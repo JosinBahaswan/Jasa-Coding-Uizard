@@ -13,8 +13,7 @@ export default function Testimonials() {
           <div className="testimonial-card">
             <div className="testimonial-img testimonial-img-1" />
             <blockquote>
-              "Jasa Coding's services are exceptional! They helped streamline
-              our processes effectively."
+              "Layanan Jasa Coding sangat luar biasa! Mereka membantu mempercepat proses kami dengan efektif."
             </blockquote>
             <div className="testimonial-name">Anna Smith</div>
             <div className="testimonial-stars">★★★★★</div>
@@ -22,8 +21,7 @@ export default function Testimonials() {
           <div className="testimonial-card">
             <div className="testimonial-img testimonial-img-2" />
             <blockquote>
-              "Impressive coding support and guidance. Highly recommended for
-              startups."
+              "Dukungan dan bimbingan coding yang sangat mengesankan. Sangat direkomendasikan untuk startup."
             </blockquote>
             <div className="testimonial-name">James Brown</div>
             <div className="testimonial-stars">★★★★★</div>
@@ -31,7 +29,7 @@ export default function Testimonials() {
           <div className="testimonial-card">
             <div className="testimonial-img testimonial-img-3" />
             <blockquote>
-              "Great team to work with. They understand our needs perfectly."
+              "Tim yang hebat untuk diajak bekerja sama. Mereka benar-benar memahami kebutuhan kami."
             </blockquote>
             <div className="testimonial-name">Michael Johnson</div>
             <div className="testimonial-stars">★★★★★</div>

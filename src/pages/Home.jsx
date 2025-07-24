@@ -9,33 +9,31 @@ export default function Home() {
     <div className="home-container">
       <Navbar />
       <main className="home-main">
-        <h1 className="home-title">Welcome to Jasa Coding</h1>
+        <h1 className="home-title">Selamat Datang di Jasa Coding Uizard</h1>
         <p className="home-subtitle">
-          Empowering your digital presence with cutting-edge technology and
-          innovative solutions. Join us to unlock your potential.
+          Tingkatkan kehadiran digital Anda dengan teknologi terkini dan solusi inovatif. Bergabunglah bersama kami untuk membuka potensi Anda.
         </p>
-        <button className="home-btn">Get Started</button>
+        <button className="home-btn">Mulai Sekarang</button>
         <div className="home-hero-img" />
         <section className="home-services">
-          <h2>Our Services</h2>
+          <h2>Layanan Kami</h2>
           <div className="service-cards">
             <div className="service-card">
-              <h3>Web Development</h3>
+              <h3>Pembuatan Website</h3>
               <p>
-                Building responsive and dynamic websites tailored to your needs.
+                Membangun website responsif dan dinamis sesuai kebutuhan Anda.
               </p>
             </div>
             <div className="service-card">
-              <h3>App Development</h3>
+              <h3>Pembuatan Aplikasi</h3>
               <p>
-                Creating user-friendly mobile applications for all platforms.
+                Membuat aplikasi mobile yang mudah digunakan untuk semua platform.
               </p>
             </div>
             <div className="service-card">
-              <h3>UI/UX Design</h3>
+              <h3>Desain UI/UX</h3>
               <p>
-                Designing intuitive interfaces that offer exceptional user
-                experiences.
+                Mendesain antarmuka yang intuitif dan memberikan pengalaman pengguna terbaik.
               </p>
             </div>
           </div>

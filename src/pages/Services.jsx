@@ -17,42 +17,41 @@ export default function Services() {
     <div className="services-container">
       <Navbar />
       <main className="services-main">
-        <h1 className="services-title">Our Services</h1>
+        <h1 className="services-title">Layanan Kami</h1>
         <div className="services-grid">
           <div className="service-box">
             <IconCode className="service-icon" />
-            <h3>Code Review</h3>
+            <h3>Review Kode</h3>
             <p>
-              Expert code reviews to ensure quality and efficiency in your
-              projects.
+              Review kode secara profesional untuk memastikan kualitas dan efisiensi proyek Anda.
             </p>
           </div>
           <div className="service-box">
             <IconDebug className="service-icon" />
-            <h3>Debugging Assistance</h3>
-            <p>Identify and fix bugs with professional debugging support.</p>
+            <h3>Bantuan Debugging</h3>
+            <p>Membantu menemukan dan memperbaiki bug dengan dukungan debugging profesional.</p>
           </div>
           <div className="service-box">
             <IconIdea className="service-icon" />
-            <h3>Project Ideas</h3>
+            <h3>Ide Proyek</h3>
             <p>
-              Creative project ideas to inspire your next venture in coding.
+              Ide-ide kreatif untuk menginspirasi proyek coding Anda berikutnya.
             </p>
           </div>
           <div className="service-box">
             <IconCoach className="service-icon" />
-            <h3>Personalized Coaching</h3>
-            <p>One-on-one coaching sessions to enhance your coding skills.</p>
+            <h3>Coaching Pribadi</h3>
+            <p>Sesi coaching satu-satu untuk meningkatkan kemampuan coding Anda.</p>
           </div>
           <div className="service-box">
             <IconNetwork className="service-icon" />
-            <h3>Networking Solutions</h3>
-            <p>Advanced networking strategies for project collaboration.</p>
+            <h3>Solusi Networking</h3>
+            <p>Strategi networking canggih untuk kolaborasi proyek.</p>
           </div>
           <div className="service-box">
             <IconLibrary className="service-icon" />
-            <h3>Resource Library</h3>
-            <p>Access to a vast library of coding resources and tutorials.</p>
+            <h3>Perpustakaan Resource</h3>
+            <p>Akses ke perpustakaan resource dan tutorial coding yang lengkap.</p>
           </div>
         </div>
       </main>
